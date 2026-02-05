@@ -1,0 +1,182 @@
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top menu-arriba">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="logo.png" class="logo-miniatura" alt="La Miniatura">
+
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#menu"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        <li class="nav-item">
+          <a class="nav-link btn-login" href="#">
+            <i class="fas fa-user"></i> Entrar
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header
+  id="inicio"
+  class="fondo-cafe"
+  style="background-image: url('/fondo.jpg');"
+>
+  <div class="container">
+    <div class="texto-grande">
+      <h1>La Miniatura</h1>
+      <p class="texto-mediano">Tradición y Sabor</p>
+      <p>
+        Comercializamos el mejor café de Córdoba, Veracruz<br />
+        Café Arábica y Robusta de altura
+      </p>
+      <a href="#productos" class="btn boton-verde">Ver Productos</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="fondo-crema">
+    <div class="container">
+      <h2 class="titulo">Nuestra Historia</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <article class="caja-blanca">
+            <h3>Nuestro Origen</h3>
+            <p>
+              Desde 1970 comercializamos café de altura de las montañas de
+              Córdoba, Veracruz, trabajando con productores locales.
+            </p>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="caja-blanca">
+            <h3>Calidad Premium</h3>
+            <p>
+              Procesamos cuidadosamente café Arábica y Robusta para garantizar
+              aroma y sabor en cada taza.
+            </p>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="caja-blanca">
+            <h3>Tradición Veracruzana</h3>
+            <p>
+              Más de 50 años compartiendo el auténtico sabor del café
+              veracruzano.
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos">
+    <div class="container">
+      <h2 class="titulo">Nuestros Productos</h2>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <article class="card caja-producto">
+            <div class="card-body text-center">
+              <h4 class="card-title">Café Molido</h4>
+              <p class="card-text">
+                Café de altura con aroma intenso y sabor equilibrado.
+              </p>
+              <p class="precio">Desde $150 MXN</p>
+              <a href="#" class="btn boton-verde">Ver más</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="card caja-producto">
+            <div class="card-body text-center">
+              <h4 class="card-title">Café en Grano</h4>
+              <p class="card-text">
+                Granos seleccionados para máxima frescura.
+              </p>
+              <p class="precio">Desde $180 MXN</p>
+              <a href="#" class="btn boton-verde">Ver más</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="card caja-producto">
+            <div class="card-body text-center">
+              <h4 class="card-title">Café Soluble</h4>
+              <p class="card-text">
+                Práctico y delicioso, listo en segundos.
+              </p>
+              <p class="precio">Desde $120 MXN</p>
+              <a href="#" class="btn boton-verde">Ver más</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="fondo-crema">
+    <div class="container">
+      <h2 class="titulo">Contáctanos</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p>📍 Córdoba, Veracruz</p>
+          <p>📞 (271) 123-4567</p>
+          <p>✉️ contacto@laminiatura.com.mx</p>
+        </div>
+
+        <div class="col-md-6">
+          <form class="formulario-contacto">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Nombre" />
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Correo" />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                rows="4"
+                placeholder="Mensaje"
+              ></textarea>
+            </div>
+            <button class="btn boton-verde w-100">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="fondo-cafe-oscuro texto-blanco">
+  <div class="container text-center">
+    <p>&copy; 2025 La Miniatura - Café de Córdoba</p>
+    <p>☕ Tradición veracruzana desde 1970</p>
+  </div>
+</footer>
